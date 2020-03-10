@@ -1,0 +1,152 @@
+*{
+	box-sizing: border-box;
+	font-family: 'PT Mono', monospace;
+}
+
+body{
+	background-color: #353831;
+	margin: 0;
+	padding: 0;
+}
+
+.site-wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.intro {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+}
+
+.social-media{
+	display: flex;
+	justify-content: space-around;
+	width: 50%;
+}
+
+.band-info{
+	color: #A9714B;
+	background-color: #000000;
+	padding: 5%;
+	width: 65%;
+	
+}
+
+.band{
+	width: 30%;
+	background-color: #000000;
+	padding: 20px;
+}
+
+.band img {
+	padding-top: 10%;
+	width: 100%;
+}
+
+.color-logo{
+	padding-top: 5%;
+	padding-left: 27%;
+	padding-bottom: 5%;
+}
+
+.band-name{
+	background-color: #000000;
+	max-width: 500px;
+	padding: 30px;
+	color: #A9714B;
+	background-color: black;
+	margin: 0 auto 50px auto;
+}
+
+.band-name img{
+	padding-left: 13%;
+}
+
+.music{
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: stretch;
+}
+
+
+.music-item{
+	width: 30%;
+	margin: 0 1% 2% 1%;
+	background-color: black;
+}
+.music-item img {
+	width: 100%;
+}
+
+.music-item-info {
+	background-color: #000000;
+	padding: 20px;
+	text-align: center;
+}
+
+.music-item-info h3 {
+	color: #A9714B;
+}
+
+.music-item-info h3::after {
+	content: "";
+    position: relative;
+    width: 25px;
+    height: 2px;
+    background-color: #A9714B;
+    margin: 25px auto;
+    display: block;
+}
+
+.music-item-info p {
+	color: #A9714B;
+}
+
+.tour{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.tour .section-title {
+	width: 100%;
+	text-align: center;
+}
+.tour h2{
+	
+	max-width: 300px;
+	padding: 30px;
+	color: #A9714B;
+	background-color: black;
+	margin: 0 auto 50px auto;
+
+}
+
+.tour-item{
+	width: 40%;
+	display: flex;
+	margin-bottom: 25px;
+}
+
+.date{
+	background-color: black;
+	width: 30%;
+	border-bottom: 5px solid black;
+	color: #A9714B;
+	padding: 20px 0;
+    text-align: center;
+}
+
+
+.location{
+ width: 70%;
+ border-bottom: 5px solid black;
+ color: #A9714B;
+ padding-left: 20px;
+ padding-top: 20px;
+}
+
+
